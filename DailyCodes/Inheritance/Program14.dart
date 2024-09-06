@@ -1,0 +1,7 @@
+class Parent{                                                                                                                  int ?x;                                                                                                                      int ?y;                                                                                                                      Parent({this.x,this.y}){                                                                                                       print("In parent Const");                                                                                                    print(x);                                                                                                                    print(y);                                                                                                                  }
+}                                                                                                                            class Child extends Parent{                                                                                                        Child(int x, int y):super(x,y){                                                                                           print(x);                                                                                                                    print(y);
+void main(){
+  Child obj=Child();
+}
+
+//make x:x,y:y
